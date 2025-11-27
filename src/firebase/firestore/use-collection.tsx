@@ -95,7 +95,7 @@ export function useCollection<T>(
         didCancel = true;
       };
     }
-  }, [query, options.listen, options.idField]);
+  }, [JSON.stringify(query), options.listen, options.idField]);
 
   return { data, loading, error };
 }
