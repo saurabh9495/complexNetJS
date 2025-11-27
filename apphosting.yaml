@@ -1,7 +1,31 @@
 # Settings to manage and configure a Firebase App Hosting backend.
 # https://firebase.google.com/docs/app-hosting/configure
-
 runConfig:
-  # Increase this value if you'd like to automatically spin up
-  # more instances in response to increased traffic.
+  cpu: 1
+  memoryMiB: 512
   maxInstances: 1
+scheduler:
+- schedule: "0 * * * *"
+  target: /api/fetch-news
+  timeZone: UTC
+- schedule: "30 * * * *"
+  target: /api/fetch-news
+  timeZone: UTC
+backend:
+  # App Hosting will automatically build and deploy our Genkit flows
+  genkit:
+    # The path to our Genkit source code
+    directory: src/ai
+requiredAPIs:
+- serviceName: firestore.googleapis.com
+- serviceName: identitytoolkit.googleapis.com
+- serviceName: firebaseauth.googleapis.com
+- serviceName: cloudbuild.googleapis.com
+- serviceName: cloudscheduler.googleapis.com
+- serviceName: artifactregistry.googleapis.com
+env:
+  - variable: NEWS_API_KEY
+    availability:
+    - BUILD
+    - RUNTIME
+    secret: news-api-key

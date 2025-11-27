@@ -1,0 +1,19 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isApp() {
+      // TODO: This should be locked down to the App Hosting runtime service account
+      // once that is exposed. For now, we allow any authenticated user to write,
+      // which is what the server will run as.
+      return request.auth != null;
+    }
+
+    match /articles/{articleId} {
+      allow read: if true;
+      allow write: if isApp();
+    }
+  }
+}

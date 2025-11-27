@@ -1,4 +1,4 @@
-export type Category = 'Technology' | 'Sports' | 'Politics' | 'Business' | 'Health';
+export type Category = 'Technology' | 'Sports' | 'Politics' | 'Business' | 'Health' | 'General';
 
 export type Article = {
   id: string;
@@ -7,8 +7,9 @@ export type Article = {
   source: string;
   category: Category;
   imageUrl: string;
-  date: string;
   imageHint: string;
+  publishedAt: string;
+  createdAt: string;
 };
 
 export type Ad = {

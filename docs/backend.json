@@ -1,0 +1,60 @@
+{
+  "version": "1",
+  "entities": {
+    "Article": {
+      "title": "Article",
+      "description": "Represents a news article.",
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "The title of the article."
+        },
+        "description": {
+          "type": "string",
+          "description": "A short description of the article."
+        },
+        "source": {
+          "type": "string",
+          "description": "The original source of the article."
+        },
+        "category": {
+          "type": "string",
+          "description": "The category of the article (e.g., Technology, Sports)."
+        },
+        "imageUrl": {
+          "type": "string",
+          "description": "URL for the article's image."
+        },
+        "imageHint": {
+          "type": "string",
+          "description": "A hint for AI image generation if the original image is missing."
+        },
+        "publishedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The publication date and time of the article."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The timestamp when the article was added to the database."
+        }
+      },
+      "required": ["title", "description", "source", "category", "imageUrl", "publishedAt", "createdAt"]
+    }
+  },
+  "auth": {
+    "providers": []
+  },
+  "firestore": {
+    "version": "1",
+    "rules": "firestore.rules",
+    "/articles/{articleId}": {
+      "schema": {
+        "$ref": "#/entities/Article"
+      },
+      "description": "Stores individual news articles."
+    }
+  }
+}
