@@ -1,3 +1,161 @@
 {
-  "placeholderImages": []
+  "articles": [
+    {
+      "id": "tech-1",
+      "title": "The Future of AI: What to Expect in the Next Decade",
+      "description": "Artificial intelligence is evolving at an unprecedented pace. Experts predict major breakthroughs in machine learning, natural language processing, and robotics.",
+      "source": "Tech Chronicle",
+      "category": "Technology",
+      "imageUrl": "https://picsum.photos/seed/tech1/600/400",
+      "date": "May 28, 2024",
+      "imageHint": "AI robot"
+    },
+    {
+      "id": "sports-1",
+      "title": "Lakers Secure Playoff Spot with Stunning Victory",
+      "description": "In a nail-biting finish, the Los Angeles Lakers clinched their playoff berth with a last-second shot against their rivals.",
+      "source": "Sports Daily",
+      "category": "Sports",
+      "imageUrl": "https://picsum.photos/seed/sports1/600/400",
+      "date": "May 28, 2024",
+      "imageHint": "basketball game"
+    },
+    {
+      "id": "politics-1",
+      "title": "New International Trade Agreement Signed",
+      "description": "Leaders from seven nations have signed a landmark trade agreement aimed at boosting economic growth and lowering tariffs.",
+      "source": "Global Times",
+      "category": "Politics",
+      "imageUrl": "https://picsum.photos/seed/politics1/600/400",
+      "date": "May 27, 2024",
+      "imageHint": "world leaders"
+    },
+    {
+      "id": "business-1",
+      "title": "Stock Market Hits Record High Amidst Tech Boom",
+      "description": "The NASDAQ composite reached an all-time high today, driven by strong earnings reports from major technology companies.",
+      "source": "Finance Weekly",
+      "category": "Business",
+      "imageUrl": "https://picsum.photos/seed/business1/600/400",
+      "date": "May 26, 2024",
+      "imageHint": "stock chart"
+    },
+    {
+      "id": "health-1",
+      "title": "Breakthrough in Cancer Research Announced",
+      "description": "Scientists have announced a new therapy that shows promising results in treating several types of aggressive cancers.",
+      "source": "Health & Science Journal",
+      "category": "Health",
+      "imageUrl": "https://picsum.photos/seed/health1/600/400",
+      "date": "May 25, 2024",
+      "imageHint": "science laboratory"
+    },
+    {
+      "id": "tech-2",
+      "title": "Quantum Computing: Are We There Yet?",
+      "description": "A deep dive into the current state of quantum computing and the hurdles that still need to be overcome for commercial viability.",
+      "source": "Future Tech",
+      "category": "Technology",
+      "imageUrl": "https://picsum.photos/seed/tech2/600/400",
+      "date": "May 24, 2024",
+      "imageHint": "quantum computer"
+    },
+    {
+      "id": "sports-2",
+      "title": "Underdog Story: A Historic Tennis Championship Win",
+      "description": "An unseeded player has won the Grand Slam, marking one of the biggest upsets in the history of the sport.",
+      "source": "Sports Illustrated",
+      "category": "Sports",
+      "imageUrl": "https://picsum.photos/seed/sports2/600/400",
+      "date": "May 23, 2024",
+      "imageHint": "tennis match"
+    },
+    {
+      "id": "politics-2",
+      "title": "Election Reforms Proposed by Bipartisan Committee",
+      "description": "A committee has put forward a new set of proposals aimed at improving election security and voter accessibility.",
+      "source": "The Capitol Report",
+      "category": "Politics",
+      "imageUrl": "https://picsum.photos/seed/politics2/600/400",
+      "date": "May 22, 2024",
+      "imageHint": "government building"
+    },
+    {
+      "id": "business-2",
+      "title": "The Rise of the Gig Economy and Its Impact on Workers",
+      "description": "An analysis of how freelance and contract work is reshaping the job market and what it means for the future of employment.",
+      "source": "Economic Review",
+      "category": "Business",
+      "imageUrl": "https://picsum.photos/seed/business2/600/400",
+      "date": "May 21, 2024",
+      "imageHint": "city freelance"
+    },
+    {
+      "id": "health-2",
+      "title": "The Benefits of a Plant-Based Diet",
+      "description": "New studies confirm the long-term health benefits of a diet rich in fruits, vegetables, and whole grains.",
+      "source": "Wellness Today",
+      "category": "Health",
+      "imageUrl": "https://picsum.photos/seed/health2/600/400",
+      "date": "May 20, 2024",
+      "imageHint": "healthy food"
+    },
+    {
+      "id": "tech-3",
+      "title": "Cybersecurity Threats on the Rise",
+      "description": "Experts warn of an increase in sophisticated cyberattacks targeting both corporations and individuals. Learn how to protect yourself.",
+      "source": "InfoSec Magazine",
+      "category": "Technology",
+      "imageUrl": "https://picsum.photos/seed/tech3/600/400",
+      "date": "May 19, 2024",
+      "imageHint": "hacker code"
+    },
+    {
+      "id": "sports-3",
+      "title": "Formula 1 Announces New Sustainable Fuel Initiative",
+      "description": "F1 racing is going green with a new plan to introduce 100% sustainable fuels by the next season, aiming for a net-zero carbon footprint.",
+      "source": "AutoSport",
+      "category": "Sports",
+      "imageUrl": "https://picsum.photos/seed/sports3/600/400",
+      "date": "May 18, 2024",
+      "imageHint": "racing car"
+    },
+    {
+      "id": "politics-3",
+      "title": "Global Summit on Climate Change Concludes with Pact",
+      "description": "After weeks of negotiations, world leaders have agreed on a new pact to accelerate the transition to renewable energy sources.",
+      "source": "The Environmentalist",
+      "category": "Politics",
+      "imageUrl": "https://picsum.photos/seed/politics3/600/400",
+      "date": "May 17, 2024",
+      "imageHint": "wind turbines"
+    },
+    {
+      "id": "business-3",
+      "title": "Real Estate Market Shows Signs of Cooling",
+      "description": "After a period of rapid growth, the housing market is beginning to stabilize, with experts predicting a more balanced market ahead.",
+      "source": "Property News",
+      "category": "Business",
+      "imageUrl": "https://picsum.photos/seed/business3/600/400",
+      "date": "May 16, 2024",
+      "imageHint": "modern house"
+    },
+    {
+      "id": "health-3",
+      "title": "The Importance of Mental Health in the Workplace",
+      "description": "Companies are increasingly recognizing the need to support employee mental well-being, implementing new programs and resources.",
+      "source": "Corporate Wellness",
+      "category": "Health",
+      "imageUrl": "https://picsum.photos/seed/health3/600/400",
+      "date": "May 15, 2024",
+      "imageHint": "calm meditation"
+    }
+  ],
+  "ad": {
+    "id": "ad-1",
+    "title": "Supercharge Your Workflow",
+    "description": "The ultimate productivity tool for modern teams. Try it free!",
+    "imageUrl": "https://picsum.photos/seed/ad1/600/600",
+    "imageHint": "productivity office"
+  }
 }
